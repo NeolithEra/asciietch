@@ -83,7 +83,7 @@ setup(
     license='License :: OSI Approved :: BSD License',
     packages=find_packages(),
     install_requires=[
-        'parsedatetime==2.4',
+        'parsedatetime>=2.4',
         'setuptools>=30',
     ],
     tests_require=[
